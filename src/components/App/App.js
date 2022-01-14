@@ -20,6 +20,8 @@ class App extends React.Component {
         this.updatePlaylistName = this.updatePlaylistName.bind(this);
         this.savePlaylist = this.savePlaylist.bind(this);
         this.search = this.search.bind(this);
+
+        console.log(process.env);
     }
 
     addTrack(track) {
@@ -60,6 +62,7 @@ class App extends React.Component {
             this.setState({searchResults: searchResults})
         });
     }
+
 
     render() {
         return (
