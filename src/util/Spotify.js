@@ -1,6 +1,6 @@
 const clientId = process.env.REACT_APP_CLIENTID;
-const redirectUri = 'http://localhost:3000';
-// https://wilson-playlist.netlify.app/
+const redirectUri = 'https://wilson-playlist.netlify.app/';
+// http://localhost:3000 
 
 let accessToken;
 
